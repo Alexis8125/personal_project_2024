@@ -104,16 +104,16 @@ section p {
 }
 
 .title_content {
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 1rem;
     color: #444;
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 17.6px;
     line-height: 1.5;
     color: #444;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 a{
     text-decoration: none;
@@ -124,10 +124,10 @@ button {
     color: white;
     border: none;
     border-radius: 50px;
-    padding: 1rem 2rem;
+    padding: 16px 32px;
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 16px;
     transition: background-color 0.3s ease;
 }
 
@@ -200,12 +200,12 @@ button:hover {
 
 .intro h2 {
     color: #288596;
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .intro p {
-    font-size: 1.2rem;
+    font-size: 19.2px;
     margin-bottom: 20px;
 }
 
@@ -319,12 +319,12 @@ button:hover {
 }
 
 .descripcion-contacto {
-    font-size: 1.1rem;
+    font-size: 17.6px;
     margin-bottom: 20px;
 }
 
 .datos-contacto li {
-    font-size: 1.1rem;
+    font-size: 17.6px;
     margin-bottom: 10px;
 }
 
@@ -351,7 +351,7 @@ button:hover {
 }
 
 .descripcion-sobre-nosotros {
-    font-size: 1.1rem;
+    font-size: 17.6px;
     margin-bottom: 20px;
 }
 
