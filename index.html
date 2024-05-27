@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="Multimedia files/logo_softech.png" type="png" style="border-radius: 50%;">
 </head>
-<body>
+<body onload="load_page()">
     <header>
       <div class="container-div">
         <div class="logo">
-          <img class="logo_page" src="Multimedia files/logo_softech.png" alt="logo SoftTech">
+          <img class="logo_page" src="Multimedia files/logo3.png" alt="logo SoftTech">
         </div>
         <div class="content_nav">
           <h1>SoftTech Systems</h1>
           <nav>
               <ul>
-                  <li><a href="index.html">Inicio</a></li>
-                  <li><a href="HTML/services.html">Servicios</a></li>
-                  <li><a href="HTML/sobre_nosotros.html">Sobre Nosotros</a></li>
-                  <li><a href="HTML/contact.html">Contacto</a></li>
-                  <li><a href="https://alexis8125.github.io/curriculum/" target="_blank">Ingeniero Alexis</a></li>
+                  <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                  <li><a href="#services-section"><i class="fa-solid fa-code"></i></a></li>
+                  <li><a href="#seccion-sobre-nosotros"><i class="fa-solid fa-circle-info"></i></a></li>
+                  <li><a href="#seccion-contacto"><i class="fa-solid fa-address-book"></i></a></li>
+                  <li><a href="https://alexis8125.github.io/curriculum/" target="_blank"><i class="fa-solid fa-globe"></i></a></li>
               </ul>
           </nav>
         </div>
@@ -40,22 +40,146 @@
         <button><a href="HTML/contact.html">Agendar cita</a></button>
       </div>
       <div class="box box-2">
-        <img src="Multimedia files/index_image_one.png" alt="image" class="image_index">
+        <img src="Multimedia files/image_index-removebg-preview.png" alt="image" class="image_index">
       </div>
     </div>
     <!-- Card 2 -->
-    <section class="information">
-      
+    <section class="services-section">
+      <h2>Nuestros Servicios</h2>
+      <!-- Servicio #1 -->
+      <div class="service-card">
+          <div class="image-box">
+              <img src="Multimedia files/desarrollo1.avif" alt="">
+          </div>
+          <div class="content-services-text">
+              <h2 class="service-title"><strong>Desarrollo de aplicaciones web y moviles</strong></h2>
+              <p class="service-description">Creamos aplicaciones personalizadas para plataformas web y móviles que se adaptan a las necesidades específicas de tu negocio, utilizando tecnologías modernas para ofrecer una experiencia de usuario óptima.</p>
+          </div>
+      </div>
+      <!-- Servicio #2 -->
+      <div class="service-card">
+          <div class="image-box">
+              <img src="Multimedia files/HvtWp-xRQX-ge6-yC-1GEQ.png" alt="">
+          </div>
+          <div class="content-services-text">
+              <h2 class="service-title"><strong>Desarrollo de software a la medida</strong></h2>
+              <p class="service-description">Diseñamos y desarrollamos soluciones de software personalizadas para abordar los desafíos únicos de tu empresa, desde sistemas de gestión empresarial hasta herramientas de automatización, garantizando un rendimiento y funcionalidad excepcionales.</p>
+          </div>
+      </div>
+      <!-- Servicio #3 -->
+      <div class="service-card">
+          <div class="image-box">
+              <img src="Multimedia files/consultoria.jpg" alt="">
+          </div>
+          <div class="content-services-text">
+              <h2 class="service-title"><strong>Consultoria en tecnologia de la información</strong></h2>
+              <p class="service-description">Brindamos asesoramiento experto en tecnología de la información para ayudarte a tomar decisiones informadas sobre la infraestructura tecnológica de tu empresa, optimizando procesos y maximizando la eficiencia operativa.</p>
+          </div>
+      </div>
+      <!-- Servicio #4 -->
+      <div class="service-card">
+          <div class="image-box">
+              <img src="Multimedia files/integracion1.png" alt="">
+          </div>
+          <div class="content-services-text">
+              <h2 class="service-title"><strong>Integración de sistemas</strong></h2>
+              <p class="service-description">Nos encargamos de integrar sistemas existentes dentro de tu empresa para garantizar una comunicación fluida entre plataformas y aplicaciones, mejorando la colaboración y la eficiencia entre los diferentes departamentos y sistemas.</p>
+          </div>
+      </div>
+      <!-- Servicio #5 -->
+      <div class="service-card">
+          <div class="image-box">
+              <img src="Multimedia files/desarrollo.avif" alt="">
+          </div>
+          <div class="content-services-text">
+              <h2 class="service-title"><strong>Optimización de procesos empresariales</strong></h2>
+              <p class="service-description">Analizamos los procesos empresariales de tu organización y desarrollamos soluciones tecnológicas para optimizarlos, aumentando la productividad, reduciendo costos y mejorando la calidad del servicio ofrecido.</p>
+          </div>
+      </div>
+  </section>
+  <section class="seccion-sobre-nosotros">
+    <h2 class="titulo-sobre-nosotros">Sobre Nosotros</h2>
+    <p class="descripcion-sobre-nosotros">SoftTech Systems fue fundada en 2024 con la visión de ofrecer soluciones innovadoras y de alta calidad en el campo del desarrollo de software. Trabajamos arduamente para ayudar a empresas de todos los tamaños a alcanzar sus objetivos tecnológicos. Nuestro equipo está compuesto por profesionales apasionados y altamente capacitados que están comprometidos con la excelencia en cada proyecto que emprendemos.</p>
+    <h3 class="titulo-historia">Nuestra Historia</h3>
+    <p class="descripcion-historia">En 2024, un grupo de entusiastas de la tecnología se unió con la visión de transformar la manera en que las empresas utilizan el software para impulsar su crecimiento y éxito. Con esa visión en mente, SoftTech Systems es fundada en una pequeña oficina con grandes sueños. Nuestro compromiso con la innovación y la excelencia nunca ha cambiado. Hoy en día, buscamos ser reconocidos como líderes en el campo del desarrollo de software, y estamos ansiosos por continuar ayudando a nuestros clientes a alcanzar nuevas alturas.</p>
+  </section>
+  <section class="seccion-contacto">
+    <section id="contacto">
+      <div class="container_contact">
+        <div class="tittle_form">
+          <h2>Comunicate con Nosotros</h2>
+        </div>
+        <div class="content_form">
+          <label for="">Ingresa su nombre</label>
+          <input type="text">
+        </div>
+        <div class="content_form">
+          <label for="">Ingresa tu apellido</label>
+          <input type="text">
+        </div>
+        <div class="content_form">
+          <label for="">Ingresa tu numero de telefono</label>
+          <input type="tel" name="" id="">
+        </div>
+        <div class="content_form">
+          <label for="">Ingresa tu correo electronico</label>
+          <input type="email" name="" id="">
+        </div>
+        <div class="content_form">
+          <label for="">Ingresa un mensaje</label>
+          <input type="text">
+        </div>
+        <div class="content_form">
+          <button class="button_form">ENVIAR</button>
+        </div>
+      </div>
+      <div class="image_form">
+        <img src="Multimedia files/logo3.png" alt="" class="image_form_content">
+      </div>
     </section>
-    
     <footer>
-      <p>&copy; 2024 SoftTech Systems</p>
-      <div>
-        <img class="social_media_icon" src="Multimedia files/facebook_icon.avif" alt="Facebook Icon">
-        <img class="social_media_icon" src="Multimedia files/intagram_icon.avif" alt="Instagram Icon">
-        <img class="social_media_icon" src="Multimedia files/x_icon.avif" alt="Twitter Icon">
-        <img class="social_media_icon" src="Multimedia files/youtube_icon.jpg" alt="YouTube Icon">
-    </div>
-    </footer>
+      <div class="partFooter">
+          <img src="Multimedia files/logo3.png" alt="">
+      </div>
+      <div class="partFooter">
+          <h4>Contacto</h4>
+          <div class="contact">
+              <i class="fa-solid fa-phone"></i>
+              <p>(+57) 320-902-1560</p>
+          </div>
+          <div class="contact">
+              <i class="fa-solid fa-envelope"></i>
+              <p>laarenass@ufpso.edu.co</p>
+          </div>
+          <div class="contact">
+              <i class="fa-solid fa-user"></i>
+              <p>ingalexisarenas@gmail.com</p>
+          </div>
+          <div class="contact">
+              <i class="fa-solid fa-street-view"></i>
+              <p>Cra 20 #2-51</p>
+          </div>
+          <div class="contact">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Ocaña / Colombia</p>
+          </div>
+      </div>
+      <div class="partFooter">
+          <h4>Enlaces</h4>
+          <a href="https://alexis8125.github.io/curriculum/" target="_blank">Curriculum Alexis Arenas</a>
+      </div>
+      <div class="partFooter">
+          <h4>Redes Sociales</h4>
+          <div class="social-media">            
+              <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Alexis8125" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+      </div>
+  </footer>
+    <script src="https://kit.fontawesome.com/cc651b5ac7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="JS/functions.js"></script>
 </body>
 </html>
