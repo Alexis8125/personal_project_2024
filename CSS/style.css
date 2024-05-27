@@ -18,6 +18,9 @@ i:hover{
     font-size: 30px;
     color: #afadce;
 }
+.nav_page{
+    margin-top: 10px;
+}
 .logo_page{
     justify-content: flex;
     width: 20%;
